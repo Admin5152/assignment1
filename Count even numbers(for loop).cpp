@@ -3,6 +3,8 @@ using namespace std;
 
 int main(){
 
+  int average;  
+
   int number;
 
   cout<< "Enter the number of even numbers you want to print: ";
@@ -15,6 +17,9 @@ int main(){
     
 
   }
+
+  average = even/2;
+  cout<< "The average of the first "<< number << " even numbers is: "<< average << endl;
   
   return 0;
 }
