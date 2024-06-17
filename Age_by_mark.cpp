@@ -9,7 +9,7 @@ int main(){
     cout<<"Enter your age: "<<endl;
     cin>>age;
 
-    cout<<"Enter your score"<<endl;
+    cout<<"Enter your full score"<<endl;
     cin>>score;
 
     cout<<"The product of the two is "<<age*score<<endl;
